@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscripagri.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!--Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="Images/Capture d’écran (203).png" alt="" id="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">A Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <form action="" method="get" id="nav">
+                        <label for="rechercher"></label>
+                        <input type="search" id="rechercher" name="rechercher" />
+
+                        <button>Recherche</button>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--body-->
+
+    <div class="container">
+        <div class="formulaire">
+            <h3>S'inscrire</h3>
+            
+            <form action="agri.php" method="post" id="corps">
+             <label for="name">Nom</label><br><br>
+             <input type="text" placeholder="veuillez entrer votre nom" name="name" id="name"><br><br><br>
+             <label for="Prenoms">Prenoms</label><br><br>
+             <input type="text" placeholder="veuillez entrer votre prenoms" id="prenoms" name="prenoms"><br><br><br>
+             <label for="ville">Ville</label><br><br>
+             <input type="text" placeholder="veuillez entrer votre ville" id="ville" name="ville"><br><br><br>
+             <label for="number">Numero</label><br><br>
+             <input type="tel" name="number" id="number" placeholder="veuillez entrer votre numéro"><br><br><br>
+             <label for="email">email</label><br><br>
+             <input type="email" placeholder="veuillez entrer votre email" id="email" name="email"><br><br><br>
+ 
+             <label for="Password">Mot de passe</label><br><br>
+             <input type="password" placeholder="veuillez saisir votre mot de passe" id="password" name="password"><br><br><br>
+             <label for="Password">Confirmez le mot de passe</label><br><br>
+             <input type="password" placeholder="veuillez saisir votre mot de passe"  id="password" name="confirm_password"><br>
+ 
+
+            </form>
+            
+            <a href="aide.html"><input type="button" value="CONNEXION" id="button"></a>
+            
+        </div>
+    </div>
+
+
+
+     <!--footer-->
+
+     <footer>
+        <h2>Retrouvez nous aussi sur </h2>
+        <div class="sociaux">
+            <a href="http://">
+                <img src="Images/facebook (2).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/instagram (2).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/twitter (1).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/youtube.png" alt="" id="reso1">
+            </a>
+        
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

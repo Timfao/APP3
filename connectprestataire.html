@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="connectprestataire.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!--Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="Images/Capture d’écran (203).png" alt="" id="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">A Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <form action="" method="get" id="nav">
+                        <label for="rechercher"></label>
+                        <input type="search" id="rechercher" name="rechercher" />
+
+                        <button>Recherche</button>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--body-->
+
+    <div class="container">
+        <div class="formulaire">
+            <h3>Se connecter</h3>
+            <p>Entrez votre identifiant et votre mot de passe pour vous connecter </p>
+            <form action="pres.php" method="post" id="corps">
+                <label for="Email">Email </label><br><bR>
+                <input type="text" id="email" name="email"><br><br><br>
+                <label for="password">Mot de passe</label><br><br>
+                <input type="password" id="password" name="password"><br><br><br>
+
+            </form>
+            <h4><a href="">Mot de passe oublié????</a></h4>
+            <a href="tracqteur.html"><input type="button" value="connexion" id="button"></a>
+            <a href="inscripprestataire.html"><h5>s'inscrire</h5></a>
+
+        </div>
+    </div>
+
+
+
+     <!--footer-->
+
+    
+    
+</body>
+<footer>
+    <h2>Retrouvez nous aussi sur </h2>
+    <div class="sociaux">
+        <a href="http://">
+            <img src="Images/facebook (2).png" alt="" id="reso1">
+        </a>
+        <a href="http://">
+            <img src="Images/instagram (2).png" alt="" id="reso1">
+        </a>
+        <a href="http://">
+            <img src="Images/twitter (1).png" alt="" id="reso1">
+        </a>
+        <a href="http://">
+            <img src="Images/youtube.png" alt="" id="reso1">
+        </a>
+    </div>
+    
+</footer>
+</html>

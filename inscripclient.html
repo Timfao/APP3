@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscripclient.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!--Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="Images/Capture d’écran (203).png" alt="" id="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">A Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <form action="" method="get">
+                        <label for="rechercher"></label>
+                        <input type="search" id="rechercher" name="rechercher" />
+
+                        <button>Recherche</button>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="connexion">
+        <div class="image">
+ 
+        </div>
+        <div class="conect">
+ 
+         <h3>Veuillez vous inscrire</h3>
+         <form action="client.php" method="post" id="corps">
+            <label for="name">Nom</label><br><br>
+            <input type="text" placeholder="veuillez entrer votre nom" id="name" name="name" required><br><br><br>
+        
+            <label for="prenoms">Prenoms</label><br><br>
+            <input type="text" placeholder="veuillez entrer votre prénom" id="prenoms" name="prenoms" required><br><br><br>
+        
+            <label for="number">Numero</label><br><br>
+            <input type="tel" id="number" name="number" placeholder="veuillez entrer votre numéro" required><br><br><br>
+        
+            <label for="email">Email</label><br><br>
+            <input type="email" id="email" name="email" placeholder="veuillez entrer votre email" required><br><br><br>
+        
+            <label for="password">Mot de passe</label><br><br>
+            <input type="password" placeholder="veuillez saisir votre mot de passe" id="password" name="password" required><br><br><br>
+        
+            <label for="confirm_password">Confirmez le mot de passe</label><br><br>
+            <input type="password" placeholder="veuillez saisir votre mot de passe" id="confirm_password" name="confirm_password" required><br><br>
+        
+            <button type="submit" id="button"><a href="produit.html">Envoyer</a></button>
+        </form>
+        
+         
+
+         
+        </div>
+     </div>
+
+
+    <!--footer-->
+
+    <footer>
+        <h2>Retrouvez nous aussi sur </h2>
+        <div class="sociaux">
+            <a href="http://">
+                <img src="Images/facebook (2).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/instagram (2).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/twitter (1).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/youtube.png" alt="" id="reso1">
+            </a>
+        
+        
+    </footer>
+    
+</body>
+</html>

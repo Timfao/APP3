@@ -1,0 +1,113 @@
+*{
+    top: 0;
+    margin: 0;
+}
+  
+
+/* barre de navigation*/
+nav{
+    display: flex;
+    height: 50px;
+    background-color: forestgreen;
+}
+nav ul{
+    display: flex;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 650px;
+    list-style-type: none;
+  
+}
+
+nav ul li{
+    margin-left: 80px;
+    text-decoration: none;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:active{
+    color: white;
+}
+#logo{
+    width: 50px;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height:400px;
+    margin-top: 4cm;
+}
+.formulaire{
+    margin-left: 10cm;
+    margin-right: 10cm;
+    margin-top: 40px;
+    background-image: url(Images/riz-epis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding:20px;
+    border-radius: 10px;
+    color:black;
+
+}
+h3 {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+p{
+   font-size: large;
+   margin-bottom: 20px;
+}
+#corps input{
+    width:90%;
+    height: 30px;
+    border-radius: 10px;
+}
+a{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+h4{
+    text-align: center;
+    margin-top: 5px;
+}
+#button{
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 90%;
+    background-color: darkgreen;
+}
+a h5{
+    text-align: end;
+    font-size: large;
+}
+nav ul li a:active{
+    color: white;
+}
+/* footer*/
+
+footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+.sociaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#reso1{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}

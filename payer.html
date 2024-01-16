@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payer.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!--Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="Images/Capture d’écran (203).png" alt="" id="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="html">A Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <form action="" method="get" id="nav">
+                        <label for="rechercher"></label>
+                        <input type="search" id="rechercher" name="rechercher" />
+
+                        <button>Recherche</button>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--mon panier-->
+
+    
+    <h1>MON PANIER</h1>
+    <div class="container">
+        <div class="cards">
+            <div class="image">
+                <img src="Images/paligram.jpe" width="200px" alt="">
+            </div>
+            <div class="info" id="cartItem">
+                <!-- Le contenu du panier sera mis à jour ici -->
+            </div>
+            <div class="button">
+                <a href="produit.html">
+                    <img src="Images/png-clipart-computer-icons-add-button-logo-number-thumbnail.png" width="30px" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Total</h1><br><br><br>
+            <h2>Sous total : <span id="total">0 FCFA</span></h2><br><br><br>
+            <h4>LIVRAISON : <span id="lieuLivraison">DABOU</span></h4><br><br>
+            <input type="submit" id="button" name="button" value="PAYER A LA LIVRAISON">
+            <section>
+                <h5>Nous acceptons :</h5>
+                <a href="#"><img src="Images/moov.jpeg" alt="" width="60px"></a>
+                <a href="#"><img src="Images/mtn.png" alt="" width="60px"></a>
+                <a href="#"><img src="Images/wave.jpg" alt="" width="60px"></a>
+                <a href="#"><img src="Images/orange.png" alt="" width="60px"></a>
+            </section>
+        </div>
+    </div>
+    
+
+
+
+     <!--footer-->
+
+     
+    <script src="panier.js"></script>
+</body>
+
+<footer>
+    <h2>Retrouvez nous aussi sur </h2>
+    <div class="sociaux">
+        <a href="http://">
+            <img src="Images/facebook (2).png" alt="" id="reso1">
+        </a>
+        <a href="http://">
+            <img src="Images/instagram (2).png" alt="" id="reso1">
+        </a>
+        <a href="http://">
+            <img src="Images/twitter (1).png" alt="" id="reso1">
+        </a>
+        <a href="http://">
+            <img src="Images/youtube.png" alt="" id="reso1">
+        </a>
+    </div>
+    
+</footer>
+</html>

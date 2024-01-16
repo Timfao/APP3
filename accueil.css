@@ -1,0 +1,262 @@
+*{
+    top: 0;
+    margin: 0;
+}
+
+/* barre de navigation*/
+nav{
+    display: flex;
+    height: 50px;
+    background-color: forestgreen;
+}
+nav ul{
+    display: flex;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 650px;
+    list-style-type: none;
+  
+}
+
+nav ul li{
+    margin-left: 90px;
+    text-decoration: none;
+  
+}
+nav ul li a:active{
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    width: 50px;
+    height: 100%;
+}
+.texte h2{
+    margin-top: 50px;
+    margin-left: 80px;
+    
+}
+.texte p{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: large;
+      
+}
+#texte{
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-top: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: forestgreen;
+    
+}
+#texte a{
+    text-decoration: none;
+    color: white;
+}
+.test p{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: large;
+      
+}
+#test{
+    margin-top: 40px;
+    margin-left: 60px;
+    padding-top: 10px;
+    font-size: large;
+    background-color: forestgreen;
+    
+}
+#test a{
+    text-decoration: none;
+    color: white;
+}
+
+.images{
+    height: 380px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:snow;
+}
+.texte{
+    width: 50%;
+}
+.image{
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Images/vente.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* parallax 1 */
+
+.parallax{
+    margin-top: 40px;
+    height: 250px;
+    width: 100%;
+    background-image:url(Images/paligram.jpe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parallax p{
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Nos offres*/
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.offres{
+    display: flex;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.offres h3{
+    text-align: center;
+    margin-top: 70px;
+}
+.offre1{
+    width: 100%;
+    height:100%;
+    background-image: url(Images/9115_livre\ ouvert_Horia\ Varlan\ -flickr\ by\ 20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .1s;
+}
+.offre1:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.5);
+    }
+.offre2{
+    width: 100%;
+    height:100%;
+    background-image: url(Images/iStock-1135609382\(2\)_0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    transition: transform .1s;
+}
+.offre2:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.5);
+    }
+.offre3{
+    width: 100%;
+    height:100%;
+    background-image: url(Images/téléchargement\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    transition: transform .1s;
+}
+.offre3:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.5);
+    }
+.offre4{
+    width: 100%;
+    height:100%;
+    background-image: url(Images/97387458-a-stack-of-textbooks-on-the-windowsill.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    transition: transform .1s;
+}
+.offre4:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(.5);
+    }
+
+/* explication*/
+.explication{
+    display: flex;
+    margin-top: 40px;
+    height: 280px;
+}
+.photo{
+    width:100%;
+    height:100%;
+    background-image:url(Images/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.test{
+    width:100%;
+    height:100%;
+    background-color: snow;
+}
+
+/* actualité*/
+
+.actuality{
+    display: flex;
+    height:280px;
+    width: 700px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.card1{
+
+    width: 100%;
+}
+.card2{
+
+    width: 100%;
+    margin-left: 20px;
+}
+.card3{
+
+    width: 100%;
+    margin-left: 20px;
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+
+/* footer*/
+
+footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.sociaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#reso1{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}

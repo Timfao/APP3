@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="voirplus2.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!--Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="Images/Capture d’écran (203).png" alt="" id="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">A Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <form action="" method="get" id="nav">
+                        <label for="rechercher"></label>
+                        <input type="search" id="rechercher" name="rechercher" />
+
+                        <button>Recherche</button>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!--corps-->
+
+    <div class="container">
+        <div class="image"></div>
+        <div class="descrip">
+            <h1>M2XX</h1>
+            <h3>PRIX : 20000</h3>
+            
+            <h4>Quantité </h4>
+            <input type="number" id="number"><br><br>
+            <label for="lieu"> lieu de livraison </label>
+            <input type="text"><br><br>
+            <a href="payer2.html" id="ajouterAuPanierButton" onclick="ajouterAuPanier('M2XX', 20000)">Ajouter au panier</a>
+        </div>
+    </div>
+    
+    
+
+
+    <!--footer-->
+
+    <footer>
+        <h2>Retrouvez nous aussi sur </h2>
+        <div class="sociaux">
+            <a href="http://">
+                <img src="Images/facebook (2).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/instagram (2).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/twitter (1).png" alt="" id="reso1">
+            </a>
+            <a href="http://">
+                <img src="Images/youtube.png" alt="" id="reso1">
+            </a>
+        </div>
+        
+    </footer>
+    <script src="tracteur.js"></script> 
+</body>
+</html>
